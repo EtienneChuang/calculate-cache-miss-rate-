@@ -23,7 +23,7 @@ Simulate directed mapped cache.<br/>
 根據determine_memory_block()所計算出來的結果以及cache block的數量來計算出所對應的cache block<br/>
 <code>determine_tag(memoryBlock, numberofCacheBlock)</code>: <br/>
 根據memory block以及cache block的數量來計算出TAG<br/>
-<code>produce_cache_block_table(numberOfCacheBlock)</code>: <br/>
+<code>produce_cache_block_table(numberofCacheBlock)</code>: <br/>
 建立一個原始的cache block table; valid為no、tag預設成0<br/>
 <code>check_cache_block(position_of_mapped_cache_block, TAG)</code>: <br/>
 根據對應到的cache block以及計算出的TAG來跟cache block裡的資料作比較，做出相關的因應<br/>
