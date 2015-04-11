@@ -38,7 +38,7 @@ def produce_cache_block_table(numberOfCacheBlock):
 	cacheBlockTable = {}
 	for i in range(numberOfCacheBlock):
 		raw = {str(i) : {"Valid" : "No", 
-						   "TAG" : 0}}
+				   "TAG" : 0}}
 		cacheBlockTable.update(raw)
 	return cacheBlockTable
 
