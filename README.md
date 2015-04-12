@@ -40,3 +40,10 @@ Simulate directed mapped cache.<br/>
 
 執行:<br/>
 <code>py main.py <i>filename</i> <i>cache_size</i> <i>block_size</i>
+
+For example:<br/>
+<code>py main.py address.txt 1024k 64</code><br/>
+<h5>Result: </h5>
+Miss Count: 1542<br/>
+Hit Count:  3458<br/>
+Miss Rate:  0.3084<br/>
