@@ -39,7 +39,7 @@ Simulate directed mapped cache.<br/>
 <code>address_list</code>: 讀檔轉換後的記憶體位置<br/>
 
 執行:<br/>
-<code>py main.py <i>filename</i> <i>cache_size</i> <i>block_size</i>
+<code>py main.py <i>filename</i> <i>cache_size</i> <i>block_size</i></code>
 
 For example:<br/>
 <code>py main.py address.txt 1024k 64</code><br/>
